@@ -1,0 +1,9 @@
+{
+    "type": "ftp",
+    "host": "nectarshakir.com",
+    "username": "nectar@nectarshakir.com",
+    "password": "Cheezit6821!",
+    "port": 21,
+    "remotePath": "",
+    "uploadOnSave": true
+}

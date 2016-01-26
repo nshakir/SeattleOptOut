@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*RESET */
+body, body * {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+	box-sizing:border-box;
+  background-color:#ECEDE7;
+}
+
+h3, h4, h5 {
+  color: #45787C;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+h2 {
+  text-align: center;
+  color: #45787C;
+  text-decoration: underline;
+  line-height: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+#wrapper {
+  width: 100%;
+  margin: auto 0;
+  clear: both;
+  padding: 2em;
+}
+
+#main-nav {
+  width: 100%;
+  }
+
+
+#logo {
+  width: 20%;
+  float: left;
+  background-color: #9F1D20;
+}
+
+#nav-items {
+  float: left;
+  width: 80%;
+  background-color: #9F1D20;
+  padding: 30px;
+}
+
+#nav-items ul li{
+	list-style-type: none;
+  display: inline;
+  padding: 5%;
+  color: #ffffff;
+}
+
+#content-wrapper {
+  width: 65%;
+  float: left;
+  line-height: 1.5em;
+
+}
+
+.cta-news {
+  width: 30%;
+  float: left;
+  padding: 2em;
+}
+
+.sidebar {
+  width: 20%;
+  float: left;
+  padding-left: 5em;
+}
+
+.sidebar ul li {
+  margin-left: 2em;
+}
+
+#footer {
+width: 100%;
+clear: both;
+background-color: #9F1D20;
+padding: 2em;
+}
+#footer ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 5%;
+}
