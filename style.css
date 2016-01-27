@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
+/* COLORS
+Deep red: #9F1D20
+Deep blue: #0E3A61
+Deep Aqua: #45787C
+Light Aqua: #83C3C8
+Blue grey: #3E4EFF0
+Stone: #ECEDE7
+*/
+
 /*RESET */
 body, body * {
 	margin: 0;
@@ -8,35 +18,84 @@ body, body * {
 	box-sizing:border-box;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+html {
   font-size: 16px;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
 	box-sizing:border-box;
   background-color:#ECEDE7;
 }
 
-h3, h4, h5 {
+
+/*TEXT STYLES*/
+h1 {
+  margin-bottom: .5em;
+}
+
+h4, h5 {
+  font-family: 'Montserrat', sans-serif;
   color: #45787C;
-  text-decoration: underline;
   line-height: 2em;
+  margin-bottom: 1em;
 }
 
 h2 {
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #45787C;
-  text-decoration: underline;
   line-height: 2em;
+  margin-top: 2em;
 }
 
-a {
-  text-decoration: none;
+a:link, a:visited {
+	text-decoration:none;
+	color:#9F1D20;}
+
+a:hover, a:focus {
+	text-decoration:none;
+	color:#83C3C8;
+	}
+
+#logo h1 {
+  margin: 0;
+  color: #83C3C8;
+}
+
+#logo span {
+  color: #ffffff;
+}
+
+
+
+#nav-items  a:link, a:visited {
+  	text-decoration:none;
+  	color:#ffffff;}
+
+#nav-items  a:hover, a:focus {
+  	text-decoration:none;
+  	color:#83C3C8;
+  	}
+.underline {
+border-bottom: 1px solid black;
+width:200px;
+padding: 5px;}
+
+#social  li {
+  padding: 1px;
+  list-style-type: none;
+  display: inline;
+  margin: 0;
 }
 
 p {
   line-height: 1.25em;
 }
 
+/* Home Page */
 #wrapper {
   width: 100%;
   margin: auto 0;
@@ -46,27 +105,36 @@ p {
 
 #main-nav {
   width: 100%;
+  font-family: 'Montserrat', sans-serif;
   }
+
+  #google_translate_element {
+    float: right;
+    margin: 0;
+    color: #83C3C8;
+  }
+
 
 
 #logo {
   width: 20%;
   float: left;
   background-color: #9F1D20;
+  padding: 1.25em;
 }
 
 #nav-items {
   float: left;
   width: 80%;
   background-color: #9F1D20;
-  padding: 30px;
+  padding: 36px;
+  font-size: 120%;
 }
 
 #nav-items ul li{
 	list-style-type: none;
   display: inline;
-  padding: 5%;
-  color: #ffffff;
+  padding: 3.5%;
 }
 
 #content-wrapper {
@@ -76,10 +144,19 @@ p {
 
 }
 
+#content {
+  width: 75%;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
 .cta-news {
-  width: 30%;
+  width: 33.3%;
   float: left;
-  padding: 2em;
+  padding: 1em;
+}
+.cta-news img {
+  display: block;
+  margin: 0 auto;
 }
 
 .sidebar {
