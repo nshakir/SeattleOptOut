@@ -121,6 +121,10 @@ p {
     color: #83C3C8;
   }
 
+	.cta-news {
+		width: 33.3%;
+	}
+
 
 
 #logo {
@@ -160,11 +164,7 @@ color: #EBB700; /* and use bright gold */
   line-height: 1.5em;
   margin: 0 auto;
 }
-.cta-news {
-  width: 33.3%;
-  float: left;
-  padding: 1em;
-}
+
 .cta-news img {
   display: block;
   margin: 0 auto;
@@ -191,3 +191,27 @@ padding: 2em;
   display: inline;
   padding: 5%;
 }
+
+#content-wrapper article.post-excerpt {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.cta-news article.post-excerpt {
+	overflow: hidden;
+	margin-bottom: 20px;
+	float: left;
+
+}
+
+
+
+/* ------- Post Thumbnails ----- */
+#content-wrapper img.wp-post-image {}
+#content-wrapper img.attachment-thumbnail {
+	float: left;
+	margin: 4px 20px 0 0;
+}
+#content-wrapper img.attachment-medium {}
+#content-wrapper img.attachment-large {}
+#content-wrapper img.attachment-full {}

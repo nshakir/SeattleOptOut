@@ -1,5 +1,5 @@
 <div class="sidebar">
-<h4><span class="underline">Search</span></h4>
+<?php dynamic_sidebar(1); //call our widget ?>
 <h4><span class="underline">Opt Out Forms</span></h4>
 <ul>
   <a href="#"><li>King County</li></a>

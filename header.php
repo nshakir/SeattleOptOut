@@ -29,4 +29,7 @@ function googleTranslateElementInit() {
       <ul>
     </div>
 </div>
+<?php
+    echo do_shortcode("[metaslider id=49 restrict_to=home]");
+?>
   <div id="wrapper">
