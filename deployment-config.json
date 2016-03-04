@@ -4,6 +4,6 @@
     "username": "seattms6@seattleoptoutgroup.com",
     "password": "Optoutnow2016!",
     "port": 21,
-    "remotePath": "public_html/wp-content/themes/seattleoptout/",
+    "remotePath": "/public_html/wp-content/themes/seattleoptout/",
     "uploadOnSave": true
 }

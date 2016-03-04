@@ -195,14 +195,14 @@ padding: 2em;
 #content-wrapper article.post-excerpt {
 	overflow: hidden;
 	margin-bottom: 20px;
+	font-size: 12px;
 }
 
-.cta-news article.post-excerpt {
-	overflow: hidden;
-	margin-bottom: 20px;
+#content-wrapper article.front-post-excerpt {
+	width: 33.3%;
 	float: left;
-
 }
+
 
 
 
