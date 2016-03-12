@@ -16,7 +16,7 @@
 
 <div id="main-nav">
     <div id="logo">
-    <a href="home.html"><h1>SEATTLE</h1> <h1><span>Opt Out</span></h2></a>
+    <a href="http://seattleoptoutgroup.com"><h1>SEATTLE</h1> <h1><span>Opt Out</span></h2></a>
     </div>
     <div id="nav-items">
       <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>

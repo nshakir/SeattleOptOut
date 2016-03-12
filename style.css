@@ -37,6 +37,16 @@ body {
   background-color:#ECEDE7;
 }
 
+a:link, a:visited {
+	text-decoration:none;
+	color:#9F1D20;}
+
+a:hover, a:focus {
+	text-decoration:none;
+	color:#83C3C8;
+	}
+
+
 
 /*TEXT STYLES*/
 h1 {
@@ -58,14 +68,6 @@ h2 {
   margin-top: 2em;
 }
 
-a:link, a:visited {
-	text-decoration:none;
-	color:#9F1D20;}
-
-a:hover, a:focus {
-	text-decoration:none;
-	color:#83C3C8;
-	}
 
 #logo h1 {
   margin: 0;
@@ -123,6 +125,7 @@ p {
 
 	.cta-news {
 		width: 33.3%;
+		float: left;
 	}
 
 
@@ -138,7 +141,7 @@ p {
   float: left;
   width: 80%;
   background-color: #9F1D20;
-  padding: 24px;
+  padding: 2.5em;
   font-size: 120%;
 }
 
@@ -201,6 +204,7 @@ padding: 2em;
 #content-wrapper article.front-post-excerpt {
 	width: 33.3%;
 	float: left;
+	font-size: 85%;
 }
 
 
