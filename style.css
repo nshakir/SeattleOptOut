@@ -69,7 +69,8 @@ h2 {
 }
 
 
-#logo h1 {
+#logo {
+	font-size: 150%;
   margin: 0;
   color: #83C3C8;
 }
@@ -134,15 +135,16 @@ p {
   width: 20%;
   float: left;
   background-color: #9F1D20;
-  padding: 1.25em;
+	padding: .70%;
+	font-size: 120%;
 }
 
 #nav-items {
   float: left;
   width: 80%;
   background-color: #9F1D20;
-  padding: 2.5em;
-  font-size: 120%;
+  font-size: 100%;
+	padding:1.8%;
 }
 
 #navigation ul li.current-menu-item a {
@@ -152,15 +154,23 @@ color: #EBB700; /* and use bright gold */
 #nav-items ul li{
 	list-style-type: none;
   display: inline;
-  padding: 3.5%;
+  padding: 4%;
 }
 
 #content-wrapper {
   width: 65%;
   float: left;
   line-height: 1.5em;
-
 }
+
+#content-wrapper  a:link, a:visited {
+  	text-decoration:none;
+  	color:#83C3C8;}
+
+#content-wrapper  a:hover, a:focus {
+  	text-decoration:none;
+  	color:#ffffff;
+  	}
 
 #content {
   width: 75%;
@@ -199,6 +209,7 @@ padding: 2em;
 	overflow: hidden;
 	margin-bottom: 20px;
 	font-size: 12px;
+	float: left;
 }
 
 #content-wrapper article.front-post-excerpt {

@@ -16,17 +16,11 @@
 
 <div id="main-nav">
     <div id="logo">
-    <a href="http://seattleoptoutgroup.com"><h1>SEATTLE</h1> <h1><span>Opt Out</span></h2></a>
+    <a href="http://seattleoptoutgroup.com">SEATTLE<br><span>Opt Out</span></a>
     </div>
     <div id="nav-items">
       <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'div','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
 
-    <div id="google_translate_element"><p>En Espanol</p></div></li><script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-}
-</script>
-      <ul>
     </div>
 </div>
 <?php

@@ -2,21 +2,14 @@
     <div id="content-wrapper">
     <h1>WELCOME!</h1>
     <?php bloginfo('description'); ?>
-    <h2><span class="underline">Latest News</span></h2>
+    <h2><span class="underline">Upcoming Events</span></h2>
+
+
 
       <article class="front-post-excerpt">
-        <?php rewind_posts(); // stop loop one ?>
-      <?php query_posts('showposts=6'); // give directions to loop two ?>
-      <?php while (have_posts()) : the_post(); // start loop two ?>
-        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('thumbnail');?>
-       <?php the_title(); ?></a>
-        <br><?php the_time('F j, Y'); //get the time ?>
-        <!--  <?php the_excerpt(); ?> -->
+          <?php echo do_shortcode( '[event-list num_events=6 show_filterbar=false]' ); ?>
       </article>
-      <?php endwhile; // end loop two ?>
-
-
-<small>front-page.php</small>
+  
     </div>
 <?php get_sidebar();?>
 <?php get_footer();?>

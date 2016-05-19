@@ -1,9 +1,9 @@
 {
     "type": "ftp",
-    "host": "seattleoptoutgroup.com",
-    "username": "seattms6@seattleoptoutgroup.com",
-    "password": "G00$e!219",
+    "host": "nectarshakir.com",
+    "username": "nectar@nectarshakir.com",
+    "password": "Cheezit6821!",
     "port": 21,
-    "remotePath": "/public_html/wp-content/themes/seattleoptout/",
+    "remotePath": "/SeattleOptOut",
     "uploadOnSave": true
 }
